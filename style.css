@@ -1,0 +1,56 @@
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+}
+
+.lien-nav {
+    padding: 20px 0;
+}
+
+.lien-nav li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.lien-nav li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 0;
+}
+
+.lien-nav a:hover {
+    border-top: solid 2px #0065FC;
+    padding-top: 15px;
+}
+
+.fa-location-dot {
+    background-color: #d9d9d9;
+    border-radius: 15px 0 0 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.fa-magnifying-glass {
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    height: 49px;
+    width: 132px;
+}
+
