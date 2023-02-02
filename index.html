@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title> Bookie </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title> Booki </title>
   <link href="style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/8829f534f7.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,9 +34,10 @@
               <i class="fa-solid fa-location-dot"></i>
             </div>
           
-          <input type="text" name="ville" id="ville" placeholder="Marseille, France">
+          <input class="city" type="text" name="ville" id="ville" placeholder="Marseille, France">
           <div class="rechercher">
             <input type="button" class="btn" value="Rechercher">
+            
           </div>
       </form>
       
@@ -128,7 +131,7 @@
                             </div>
                     </a>
                 </div>
-                <h3 class="more-content">Afficher plus</h3>
+                <a href="#"><h3 class="more-content">Afficher plus</h3></a>
         </div>
         <aside class="popular-content">
             <div class="popular-title-sign">
@@ -192,26 +195,24 @@
         <h1 class="activities-title">Activités à Marseille</h1>
     
         <div id="activities" class="activities">
-            <a href="#" class="activities-articles-1">
-                <div class="activities-img img1"></div>
+            <a href="#" class="activities-articles-1" alt="Vieux-Port">
+                <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="activities-img img1" alt="Vieux Port">
                 <h2 class="activities-name">Vieux-Port</h2>
             </a>
             <a href="#" class="activities-articles-2">
-                <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="activities-img" alt="Fort de Pomègues">
+                <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="activities-img img2" alt="Fort de Pomègues">
                 <h2 class="activities-name">Fort de Pomègues</h2>
             </a>
-            <a href="#" class="activities-articles-3">
-                <div class="activities-img img3"></div>
+            <a href="#" class="activities-articles-3" alt="Parc national des Calanques">
+                <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="activities-img img3" alt="Parc des Calanques">
                 <h2 class="activities-name">Parc national des Calanques</h2>
             </a>
             <a href="#" class="activities-articles-4">
-                <div class="activities-img img4"></div>
+                <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="activities-img img4" alt="Notre-Dame-De-La-Garde">
                 <h2 class="activities-name">Notre-Dame-de-la-Garde</h2>
             </a>
         </div>
     </div>
-
-
     <footer>
         <div class="about-us-footer">
             <h3>À propos</h3>
@@ -236,7 +237,11 @@
             </ul>
         </div>
     </footer>
-
+</head>
+<body>
+    
+</body>
+</html>
     </main>
 </div>
 </body>
