@@ -14,10 +14,12 @@ h1 {
   font-size: clamp(18px,1.6vw,22px);
   font-weight: 700;
 }
+
 h2 {
   font-size: clamp(18px,1.6vw,22px);
   font-weight: 700;
 }
+
 h3 {
   margin: 0;
   font-size: clamp(14px,1.6vw,16px);
@@ -29,9 +31,14 @@ h4 {
   font-weight: 700;
 }
 
-span {
+.hosting-price {
   font-size: 14px;
   font-weight: 400;
+}
+
+.€ {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 p {
@@ -252,10 +259,6 @@ nav {
 
 .popular-sign {
   color: #0065FC;
-}
-
-.hosting-price {
-  font-size: 14px;
 }
 
 .article-rating {
