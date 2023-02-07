@@ -411,7 +411,6 @@ footer li {
   }
   .popular-hosting {
     display: flex;
-    flex-shrink: 1 1 auto;
     margin: 0;
   }
   .txt-space .hosting-price, .post-name {
